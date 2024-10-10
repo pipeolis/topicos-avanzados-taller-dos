@@ -4,7 +4,7 @@ import TeamListPage from '../pages/TeamListPage';
 import TeamCreationPage from '../pages/TeamCreationPage';
 import PokemonDetailsPage from '../pages/PokemonDetailsPage';
 // @ts-ignore
-import * as testData from '../data/teamData.json';
+import * as testData from './../data/teamData.json';
 
 test('Create Team', async ({ page }) => {
   const homePage = new HomePage(page);
