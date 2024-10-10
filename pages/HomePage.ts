@@ -1,12 +1,10 @@
 import { Page, Locator } from '@playwright/test';
 
 export class HomePage {
-    private page: Page;
     private buttonTeamBuilder: Locator;
     private h2RoomBuilder: Locator;
 
-    constructor(page: Page) {
-        this.page = page;
+    constructor(private page: Page) {
         this.h2RoomBuilder = this.page.locator('h2.rooms-officialchatrooms');
         this.buttonTeamBuilder = this.page.locator('button[value="teambuilder"]');
     }
