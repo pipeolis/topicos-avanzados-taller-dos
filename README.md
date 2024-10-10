@@ -2,6 +2,10 @@
 
 Este proyecto realiza pruebas automatizadas en la funcionalidad de creación de equipos en el sitio [Pokémon Showdown](https://play.pokemonshowdown.com) utilizando la herramienta de testing Playwright.
 
+## Integrantes
+- Andres Felipe Olis
+- Carlos Alberto Campos
+
 ## Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalado [Node +18](https://nodejs.org/) en tu sistema.
